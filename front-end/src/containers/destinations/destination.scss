@@ -1,0 +1,15 @@
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .destination-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .destination-article-container {
+      margin: 30px 30px 15px 30px;
+    }
+  }
+}

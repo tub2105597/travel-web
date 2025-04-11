@@ -1,0 +1,14 @@
+.add-image-modal {
+    .modal-content{
+        width: fit-content;
+        .modal-header {
+            .modal-title {
+                width: 95%;
+                text-transform: uppercase;
+                text-align: center;
+                margin-left: 5%;
+                font-weight: 700;
+            }
+        }
+    }
+}

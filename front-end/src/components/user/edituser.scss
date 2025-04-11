@@ -1,0 +1,44 @@
+.edituser-container {
+    width: 60%;
+    .edituser-form {
+        .form-group {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            p{
+                width: 20%;
+                font-weight: 600;
+            }
+            input{
+                width: 80%;
+                padding: 10px 30px;
+                border-radius: 20px;
+                border: 1px solid #ccc;
+            }
+            select {
+                width: 80%;
+                padding: 10px 30px;
+                border-radius: 20px;
+                border: 1px solid #ccc;
+            }
+        }
+        .button-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            .edit-btn {
+                margin: 10px 10px 0px 0px;
+                button {
+                    border-radius: 20px;
+                    text-align: center;
+                    padding: 10px 15px;
+                    background-color: #27b54e;
+                    color: white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+        }
+}

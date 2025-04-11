@@ -1,0 +1,65 @@
+.system-container {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+
+    .system-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 30px;
+        .main-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            width: 80%;
+            height: 100%;
+            .system-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 10px;
+                .system-item {
+                    width: 270px !important;
+                    height: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 20px;
+                    background-color: #66cc99;
+                    transform: scaleX(1) scaleY(1);
+                    transition: all 0.3s;
+                    padding: 10px;
+                    color:white;
+                    &:hover {
+                        transform: scaleX(0.9) scaleY(0.9);
+                        background-color: white;
+                        color: #66cc99;
+                        transition: all 0.3s;
+                    }
+                    .system-icon {
+                        border: none;
+                        background-color: inherit;
+                        i {
+                            font-size: 35px;
+                            color: inherit;
+                        }
+                    }
+                    .system-function {
+                        width: fit-content;
+                        font-size: 13px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        color: inherit;
+                        cursor: pointer;
+                        margin-top: 15px;
+                        border: none;
+                        background-color: inherit;
+                    }
+                }
+            }
+        }
+    }
+}

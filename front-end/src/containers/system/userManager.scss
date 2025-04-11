@@ -1,0 +1,199 @@
+.usermanagement-container {
+    display: flex;
+}
+
+.usermanagement-main {
+    width: calc(100% - 235px); /* Default width when sidebar is visible */
+    transition: width 0.3s ease-in-out;
+}
+
+.usermanagement-main.full-width {
+    width: 100%; /* Full width when sidebar is hidden */
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.system-sidebar {
+    width: 235px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.hidden .system-sidebar {
+    transform: translateX(-235px);
+}
+
+.main-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.edit-user {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: fit-content;
+    gap: 20px;
+    .edit-item {
+        flex-basis: calc(50% - 10px);
+        padding-bottom: 5px;
+        .edit-item-label {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+            padding: 5px;
+        }
+        select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+            padding: 5px;
+        }
+        textarea {
+            width: 100%;
+            height: 90%;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+            padding: 5px;
+        }
+}
+
+}
+
+.edit-user_avt {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.action-button {
+    width: 83%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.user-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-user-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.filter-option  {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 10px;
+    input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        outline: none;
+        padding: 5px;
+    }
+}
+
+.modal-dialog {
+    width: 300px;
+    .modal-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .edit-item {
+            .edit-item-input {
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 5px;
+                input {
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    button{
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 0px 5px;
+        &:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    }
+    .active {
+        background-color: #007bff;
+        color: white;
+    }
+
+}
+
+.edit-item-wrapper {
+    margin-left: 20px;
+    .edit-item {
+        textarea {
+            width: 300px;
+            height: 100px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+            padding: 5px;        }
+
+    }
+}
+
+.deleteModal .modal-dialog{
+    width: fit-content;
+}
+
+.edit-item-post-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 3%;
+    width: 40%;
+}
+
+.addImageModal {
+   .modal-dialog {
+    width: 400px;
+   }
+}

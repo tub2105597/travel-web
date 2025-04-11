@@ -1,0 +1,114 @@
+.intro {
+    margin-top: 50px;
+    height: 100%;
+    .row{
+        width: 100%;
+
+        .left {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            .banner {
+                width: fit-content !important;                
+            }
+            .banner-img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .content {
+                width: 80%;
+
+                .subtitle { 
+                    margin-bottom: 15px; 
+                    font-family: 'Comforter Brush', cursive;
+                    color: #edc02c;
+                    font-size: 3rem;
+                }
+
+                .title {
+                color: #07301a;
+                font-size: 3rem;
+                font-family: "Calistoga", serif;
+                font-weight: 500px;
+                line-height: 1.2;
+                margin-bottom: 15px;
+                }
+
+                .text {
+                font-size: 16px;
+                line-height: 1.7;
+                margin-bottom: 15px;
+                }
+
+                .btn-group {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .cssbuttons-io-button {
+                        width: fit-content;
+                        background: #66cc99;
+                        color: white;
+                        font-family: inherit;
+                        padding: 0.35em;
+                        padding-left: 1.2em;
+                        font-size: 17px;
+                        font-weight: 500;
+                        border-radius: 0.9em;
+                        border: none;
+                        letter-spacing: 0.05em;
+                        display: flex;
+                        align-items: center;
+                        box-shadow: inset 0 0 1.6em -0.6em #66cc99;
+                        overflow: hidden;
+                        position: relative;
+                        height: 2.8em;
+                        padding-right: 3.3em;
+                        cursor: pointer;
+                      }
+                      
+                      .cssbuttons-io-button .icon {
+                        background: white;
+                        margin-left: 1em;
+                        position: absolute;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 2.2em;
+                        width: 2.2em;
+                        border-radius: 0.7em;
+                        box-shadow: 0.1em 0.1em 0.6em 0.2em #339966;
+                        right: 0.3em;
+                        transition: all 0.3s;
+                      }
+                      
+                      .cssbuttons-io-button:hover .icon {
+                        width: calc(100% - 0.6em);
+                      }
+                      
+                      .cssbuttons-io-button .icon svg {
+                        width: 1.1em;
+                        transition: transform 0.3s;
+                        color: #66cc99;
+                      }
+                      
+                      .cssbuttons-io-button:hover .icon svg {
+                        transform: translateX(0.1em);
+                      }
+                      
+                      .cssbuttons-io-button:active .icon {
+                        transform: scale(0.95);
+                      }
+                    }
+                }
+            }
+        }
+
+    }

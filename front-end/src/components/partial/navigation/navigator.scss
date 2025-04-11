@@ -1,0 +1,41 @@
+
+.NavBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 100%;
+
+    .navbar-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: inherit;
+        gap: 10px;
+        color: white;
+        font-weight: 500;
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 1.12rem;
+            font-weight: inherit;
+            transform: translateY(0);
+            transition: all 0.2s ease;
+            &:hover {
+                transform: translateY(-5px);
+                transition: all 0.2s ease;
+            }
+        }
+        &:hover {
+            font-weight: 600;
+            background-color: white;
+            color: #339966;
+        }
+    }
+    
+
+    .active {
+        color: white;
+    }
+}

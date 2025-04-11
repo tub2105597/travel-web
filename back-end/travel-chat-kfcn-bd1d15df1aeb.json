@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "travel-chat-kfcn",
+  "private_key_id": "d36c3f89860f859c87117b6ca77246b7c2506ae6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7qG3owOi1wFMF\nN0ebZSBPP+6U/FoxGAegMUG5628uKSOuNKciYfCW0wrQu50t4qrQ9mmNtNxKolTv\nuXvEq2+Q/qxeK0LbIuE/Ms+GOg3IDdLY+9e+9lJybrJLRmIR70ejaG+zej1PnVMK\nR5OdSXR5yXgEMmD1X4I5WQoar1wkHxWEDlr8zf5l04ahg2hG038L4765lXxMF+d8\nqvM/WKF2Nw3W2cwlx0int5agbHOX/gbTZQK8rEM1w1nqH74QlAtJ0mjzv4WjeXCE\nJ/2R1zBDh/Hin7Q/54pWVFY/cyT93RXps8v5/89Idt6pDQxkqdYiFoximw2GcOB0\nkUTyyzDbAgMBAAECggEAB44FHrtL1kVWRX3iooO0hHxAA294khFnMGPLQzJ42Prl\naaLLau7wDwjGa32iGxhmmBMGtm9ZjwejmiMPGiCf7s5rhT8CNtN1dGRI4BzmNFYA\niKVa6JOYeux9JEEPiBLoZ2oeiEzOuxQyWG+ZQCb85KPfv3HnxV+BXQQT2Nv5pNqQ\nFIdGsu8+bexYKtd2Rl3Juty1KvmzmZj5DU1lmhKvVjyWBGSsJSHPsrMtpSZaVeBV\nKl3OzX6oOFK35OfrJTD18wfOTYSKk6F4XTnWH0PMFUy6W/GQOSGzWiIFagWZx6uM\n1l6K4zTSWUSdIQvSMraxtXT1g/0L224glMNz3XR8AQKBgQD8mzEL+PlVEWrDHYq2\nz5tkOfYYEP6vSLZW7JLlkp8ZOlnndGSrzKiTXXHuWOsiyc0/vlYUf59vjHdo8K8F\niujBSTQN9+CEjlzQRktl5saZyYif3txN32GxO3QHP8DFm6MuqmYPIZaIQJLmjtzb\nC36CLpJBdexiTLRoIIPjX4+dmwKBgQC+Ldsh7zo3CIkVuCuBZSB/gueX8ONR5NHc\nVbeE9GueCLfJ6x+Ip0BkvuSYaZTtMXGviJVChuILpg/XFbaTiyuHF6hRJxBc+J6l\nBok2ES93oalY74LhEe/pWCSBXzDW4ItvhZzKfhYl1p+BkQOiCyY90Ge/40Y0Gx2T\nN0A9oBWNwQKBgQDvaKKOh1S/5Db8X6ZVZuQOlMSBwLGxLUfrkGIVBOaXAW+t5ul2\nzgxDRsAxNsL8AKjvrhRlbyOLlGSj5+DpbuL0Nc4JIxH+b/LVTpotJRC7Nn+vjYfc\nokczs3ZfXHP2lXCOTN9XnezOi+zuaR422Gj5NuxU8E+uRqaBPbfiKnKx2wKBgDde\nElYm18P98Csqmz/ouTVmXxaVQxksjQygx/UlU8+GqjtXAK9AQjcSfGsDEiCcLIT2\nNr5Plq/dgO8VmzoJYnrKIG6/+LuYhld1N61OA4vIvQzvbiMonbhJuRcRJ57ncLDf\nLW6mlrwdaALIvU4IAPIuIoZzHJU+77VUeJd4a84BAoGAbhAGeOl0qc/5g2300EUW\nLZmcuzOD2Ymt7u8zVlTkNA/7S9paL4bDRseV4TRH4m2+GqhH2EvuqMYpu0B3tHhN\ngqfDA1Ew/xouY8vhOVpjbRuvewASXexFTYTRUZLeD+1OK8vvXdUgL052tu7tVIUU\nlu3vgd7XuAmJehqHhuyXkMs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "travel-chat@travel-chat-kfcn.iam.gserviceaccount.com",
+  "client_id": "113140546377885017756",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/travel-chat%40travel-chat-kfcn.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

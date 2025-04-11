@@ -1,0 +1,32 @@
+.district-container {
+    width: fit-content;
+    margin-top: 30px;
+
+    .district-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        border-radius: 20px;
+        margin-bottom: 0px;
+        padding:0px;
+        background-color: #f7cc3f;
+
+        .district-list-item {
+            width: fit-content;
+            padding: 10px 20px;
+            height: 100%;
+            list-style: none;
+            color: #013d5a;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 11px;
+            text-decoration: none;
+        }
+        .district-list-item:hover {
+            color: #fff;
+            border-radius: 20px;
+            background-color: #f5b02b;
+        }
+    }
+}

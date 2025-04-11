@@ -1,0 +1,68 @@
+.comment-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .comment-card-main {
+        display: flex;
+        flex-direction: row;
+        .comment-card-header{
+            img {
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+        }
+        .comment-card-content {
+            display: flex;
+            flex-direction: column;
+            background-color: #e8eaee;
+            padding: 6px 12px 6px 12px;
+            border-radius: 10px;
+           .comment-card-author {
+                h6 {
+                    font-size: 13px;
+                    font-weight: 500;
+                    margin: 0px;
+                }
+           }
+           .comment-content {
+            font-size: 14.5px;
+            margin: 0px;
+           }
+        }
+    }
+    .comment-card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 3px;
+
+        .comment-card-footer__time {
+            font-size: 13px;
+            opacity: 0.7;
+            margin-right: 15px;
+        }
+        .comment-card-footer__like {
+            font-size: 13px;
+            i{
+                font-size: 13px;
+                margin:0px;
+                cursor: pointer;
+                color: rgba(red,0.8);
+                margin-right: 3px;
+            }
+        }
+        .comment-card-footer__comment {
+            font-size: 13px;
+            cursor: pointer;
+            i{
+                font-size: 13px;
+                margin-left:15px;
+                color: rgba(gray,0.8);
+                margin-right: 3px;
+            }
+        }
+    }
+}

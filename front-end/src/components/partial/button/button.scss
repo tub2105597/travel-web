@@ -1,0 +1,55 @@
+.custom-btn {
+  --color: #edc02c;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transform: scaleX(1);
+  transition: color 0.2s, transform 0.2s;
+  border: none;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #edc02c;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+.custom-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.custom-btn:hover {
+  color: #fff;
+  font-weight: 600;
+  transform: scaleX(1.05);
+  transition: all 0.2s;
+}
+
+.custom-btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.custom-btn:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.custom-btn:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
+}

@@ -1,0 +1,9 @@
+export { default as SignIn } from './auth/signin/signin';
+export { default as SignUp } from './auth/signup/signup';
+export { default as Destinations } from './destinations/destinations';
+export { default as DetailDestination } from './destinations/detailDestination';
+export { default as HomePage } from './home/home';
+export { default as Profile } from './profile/profile';
+export { default as SearchPage } from './search/searchPage';
+export { default as Header } from './header/header';
+export { default as Footer } from './footer/footer';
